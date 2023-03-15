@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    line-height: 1.5
+    
+
+}
+@import url('https://fonts.cdnfonts.com/css/mont');
+h1,h2,h3,h4,h5,h6{ 
+    font-family: 'Mont', sans-serif;   
+}
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 7.5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 3rem;
+    font-size: 1.9rem;
+}
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+}
+table{
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+table td, table th{
+    white-space: nowrap;
+    text-align: left;
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+tfoot,thead{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.gold{
+    color: goldenrod;
+}
+#pricing{
+    padding-bottom: 140px;
+}

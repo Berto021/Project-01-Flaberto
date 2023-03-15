@@ -1,0 +1,36 @@
+.main-bg{
+    background-image:url(background.png);
+    background-size: cover;
+    background-position: center center;
+    color: #ffff;
+    height: 100vh;
+}
+.final-bg{
+    background-image:url(/img/—Pngtree—modern\ simple\ elegant\ dark\ blue_1454711.png);
+    background-size: cover;
+    background-position: center center;
+    color: #ffff;
+    height: 100vh;
+}
+.white-bg{
+    background-color: #ffff;
+    color: black;
+}
+.main-content{
+    margin: 0 auto;
+    max-width: 120rem;
+    padding:var(--gap);
+    
+
+}
+.section{
+    min-height: 100vh;
+}
+
+.menu-spacing{
+    height: 65px;
+}
+.image-mengo{
+    height: 5%;
+    width: 5%;
+}
